@@ -31,6 +31,7 @@ private:
 public:
     Student(string UN, string PS): User(UN, PS, StudentS){};
     ~Student(){};
+    
     void putInfo() override
     {
         cout << "Name :";
